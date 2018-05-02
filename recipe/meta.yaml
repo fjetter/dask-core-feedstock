@@ -1,4 +1,4 @@
-{% set version = "0.17.2" %}
+{% set version = "0.17.3" %}
 
 package:
   name: dask-core
@@ -7,7 +7,7 @@ package:
 source:
   fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 27e470b8cfdd0516189e641b1213fceec0ddc4f37ead1fbce733d3381134fccd
+  sha256: a37322af5ef1b05ca342fdd6dab2bb956f584865b6995affbc7dbc393ac535fa
 
 build:
   number: 0
