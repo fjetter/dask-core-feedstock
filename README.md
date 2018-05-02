@@ -14,12 +14,15 @@ Summary: Parallel Python with task scheduling
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/dask-core-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/dask-core-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/dask-core-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/dask-core-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-core/badges/version.svg)](https://anaconda.org/conda-forge/dask-core)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/dask-core/badges/downloads.svg)](https://anaconda.org/conda-forge/dask-core)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-dask--core-green.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/dask-core.svg)](https://anaconda.org/conda-forge/dask-core) |
 
 Installing dask-core
 ====================
