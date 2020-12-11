@@ -5,11 +5,13 @@ Home: http://github.com/dask/dask/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/dask-core-feedstock/blob/master/LICENSE.txt)
 
 Summary: Parallel Python with task scheduling
 
+Development: https://github.com/dask/dask
 
+Documentation: https://dask.org/
 
 Current build status
 ====================
