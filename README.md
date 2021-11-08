@@ -1,7 +1,7 @@
 About dask-core
 ===============
 
-Home: http://github.com/dask/dask/
+Home: https://github.com/dask/dask/
 
 Package license: BSD-3-Clause
 
