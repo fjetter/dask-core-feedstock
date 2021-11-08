@@ -1,7 +1,7 @@
 About dask-core
 ===============
 
-Home: http://github.com/dask/dask/
+Home: https://github.com/dask/dask/
 
 Package license: BSD-3-Clause
 
@@ -129,7 +129,4 @@ Feedstock Maintainers
 * [@shoyer](https://github.com/shoyer/)
 * [@sinhrks](https://github.com/sinhrks/)
 * [@tomaugspurger](https://github.com/tomaugspurger/)
-
-
-<!-- dummy commit to enable rerendering -->
 
