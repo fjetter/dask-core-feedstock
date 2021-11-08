@@ -1,18 +1,18 @@
-{% set version = "2021.11.0" %}
+{% set version = "2021.11.1" %}
+
 
 package:
   name: dask-core
   version: {{ version }}
 
 source:
-  fn: dask-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 007c400eab2b032717cd8d589351abfb0e79688fcc6cd033a12e506cb01066d7
+  sha256: 4fbdf45bc074e76f49a6e09e254b4ba5cf58f3af263de9446c82ec0710e00200
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -31,9 +31,14 @@ requirements:
 test:
   imports:
     - dask
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
-  home: http://github.com/dask/dask/
+  home: https://github.com/dask/dask/
+  summary: Parallel PyData with Task Scheduling
   license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: Parallel Python with task scheduling
