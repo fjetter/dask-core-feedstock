@@ -14,7 +14,7 @@ build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
-    - dask = dask.cli:run_cli
+    - dask = dask.__main__:main
 
 requirements:
   host:
@@ -40,6 +40,7 @@ test:
     - dask info versions --help
   requires:
     - pip
+    - click
 
 about:
   home: https://github.com/dask/dask/
