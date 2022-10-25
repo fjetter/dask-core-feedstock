@@ -35,6 +35,9 @@ test:
     - dask
   commands:
     - pip check
+    - dask docs --help
+    - dask info --help
+    - dask info versions --help
   requires:
     - pip
 
