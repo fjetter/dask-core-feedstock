@@ -41,7 +41,6 @@ test:
     - dask info versions --help
   requires:
     - pip
-    - click
 
 about:
   home: https://github.com/dask/dask/
