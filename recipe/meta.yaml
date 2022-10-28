@@ -10,7 +10,7 @@ source:
   sha256: 79d283326045700af0de7e2be57fd663499958c63638bf5076839cbcde64aa3f
 
 build:
-  number: 2
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -23,7 +23,7 @@ requirements:
 
   run:
     - python >=3.8
-    - click >= 7.0
+    - click >=7.0
     - cloudpickle >=1.1.1
     - fsspec >=0.6.0
     - packaging >=20.0
