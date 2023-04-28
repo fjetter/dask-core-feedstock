@@ -1,4 +1,4 @@
-{% set version = "2023.4.0" %}
+{% set version = "2023.4.1" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: 33e752c1960d4987cd5aaa03c15d82df7725815771b8e21f4f6b5d4e4ec69e0e
+  sha256: 9dc72ebb509f58f3fe518c12dd5a488c67123fdd66ccb0b968b34fd11e512153
 
 build:
   number: 0
@@ -25,13 +25,13 @@ requirements:
 
   run:
     - python >=3.8
-    - click >=7.0
-    - cloudpickle >=1.1.1
-    - fsspec >=0.6.0
+    - click >=8.0
+    - cloudpickle >=1.5.0
+    - fsspec >=2021.09.0
     - packaging >=20.0
     - partd >=1.2.0
     - pyyaml >=5.3.1
-    - toolz >=0.8.2
+    - toolz >=0.10.0
     - importlib_metadata >=4.13.0
 
 test:
