@@ -1,4 +1,4 @@
-{% set version = "2023.10.1" %}
+{% set version = "2023.11.0" %}
 
 
 package:
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/d/dask/dask-{{ version }}.tar.gz
-  sha256: da3ef0526992845408df491fcd0b3a49c7207aa908a1675cea12ab2ea10c7940
+  sha256: 06b8f39755d37ff6ef4db422774db1f1d5d6788d33f0628c80861dc6452f878c
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
 
   run:
     - python >=3.9
-    - click >=8.0
+    - click >=8.1
     - cloudpickle >=1.5.0
     - fsspec >=2021.09.0
     - packaging >=20.0
