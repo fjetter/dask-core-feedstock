@@ -53,7 +53,6 @@ about:
   license_file:
     - LICENSE.txt
     - dask/array/NUMPY_LICENSE.txt
-  summary: Parallel Python with task scheduling
   doc_url: https://dask.org/
   dev_url: https://github.com/dask/dask
 
